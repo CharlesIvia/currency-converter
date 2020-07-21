@@ -5,8 +5,9 @@ import CurrencyRow from "./components/CurrencyRow";
 function App() {
   return (
     <div className="App">
+      <h1>Currency Converter</h1>
       <CurrencyRow />
-      <div>=</div>
+      <div className="equal">=</div>
       <CurrencyRow />
     </div>
   );
